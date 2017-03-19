@@ -127,12 +127,6 @@ def proccess_image(image):
 	#return the lane picture 
 	return lines_edges
 
-'''	
-white_output = 'try1.mp4'
-clip1 = VideoFileClip("/Users/johnmcconnell/Desktop/CarND-LaneLines-P1/solidWhiteRight.mp4")
-white_clip = clip1.fl_image(proccess_image) #NOTE: this function expects color images!!
-white_clip.write_videofile(white_output, audio=False)
-'''
 
 white_output = 'white123.mp4'
 clip1 = VideoFileClip("/Users/johnmcconnell/Desktop/CarND-LaneLines-P1/solidWhiteRight.mp4",audio=False)
